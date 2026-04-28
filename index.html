@@ -1,8 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Zero Waste Mixed Herb Stem Salsa Verde Recipe</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
+        ul.navbar {
+            list-style-type: none;
+            margin:0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #7f949596;
+            position: fixed;
+            top: 0;
+            width: 97%;
+        }
+        li:last-child a {
+            border-right: none;
+        }
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            float: left;
+            border-right: 1px solid #9b9d9d;
+            width: 22.35%;
+        }
+        li a:hover:not(.active){
+            background-color: rgba(80, 100, 35, 0.527);
+        }
+        .active {
+            background-color: #65754a;
+        }
         body {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 16px;
@@ -11,6 +42,8 @@
             background-image: url("RecipeBG.png");
             background-size:cover;
             background-repeat: no-repeat;
+            background-position: top center;
+            background-attachment: fixed;
         }
 
         h1 {
@@ -45,6 +78,13 @@
     </style>
 </head>
 <body>
+<ul class="navbar">
+  <li><a class="active" href="#appetizers">Appetizers</a></li>
+  <li><a href="#maincourses">Main Courses</a></li>
+  <li><a href="#desserts">Desserts</a></li>
+  <li><a href="#beverages">Beverages</a></li>
+</ul>
+<div style="padding:20px;margin-top:30px;height:1500px;" id="appetizers">
     <h1>Zero Waste Mixed Herb Stem Salsa Verde</h1>
     <img src="MixedHerbStemSalsa.jpg" alt="Mixed Herb Stem Salsa Verde" class="recipeimage">
 <p><strong>Sheri Wetherell, June 5, 2019, on Foodista </strong>
@@ -97,5 +137,13 @@ The stems of various herbs can easily be used to flavor sparkling water or to in
 <p>
 Recipe excerpted with permission from &quot;The Zero Waste Cookbook by Giovanna Torrico and Amelia Wasiliev&quot;, published by Hardie Grant Books May 2019.<br> The recipe appears on Foodista <a href="https://www.foodista.com/blog/2019/06/05/zero-waste-mixed-herb-stem-salsa-verde">Recipe Link</a>, licensed with Creative Commons (CC-BY) <a href="https://creativecommons.org/licenses/by/3.0/">CC License</a>
 </p>
+<div id="maincourses">
+    <h2 style="text-decoration: none">More Recipes Coming Soon...</h2>
+    <div id="desserts"></div>
+    <div id="beverages"></div>
+    <p>Recipes for Main Courses, Desserts, and Beverages will be added soon. Stay tuned!</p>
+    <br>
+</div>
+</div>
 </body>
 </html>
